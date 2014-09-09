@@ -1,0 +1,27 @@
+##########################
+# node modules and dependencies
+#########################
+node_modules/
+node_modules/**
+npm-debug.log
+
+##########################
+# bower dependencies
+#########################
+bower_components/
+bower_components/**
+
+##########################
+# bower vendor libraries
+#########################
+vendor/
+
+##########################
+# manual vendor libraries should be added
+#########################
+!/js/vendor
+
+#########
+# ignore tmp stuff
+########
+tmp
